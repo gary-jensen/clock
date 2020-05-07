@@ -1,6 +1,6 @@
 function setup()
 {
-	createCanvas(600, 750);
+	createCanvas(600, 500);
 	fill(0);
 }
 
@@ -28,7 +28,7 @@ function draw()
 		hr = hr - 12;
 	}
 
-	stroke(0);
+	stroke(50);
 	noFill();
 	strokeCap(SQUARE);
 
@@ -52,7 +52,6 @@ function draw()
 	stroke(1);
 	fill(255);
 	ellipse(300, 250, 10, 10);
-
 
 
 }
